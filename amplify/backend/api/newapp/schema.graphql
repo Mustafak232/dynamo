@@ -1,0 +1,12 @@
+
+
+type Items @model {
+  id: ID!
+  name: String!
+  description: String!
+  filePath: String!
+  like: Int!
+  owner: String!
+}
+
+
